@@ -7,6 +7,8 @@
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.0",
+    "@babel/plugin-transform-async-to-generator": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.3.4",
     "babel-loader": "^8.0.6",
     "webpack": "^4.35.2",
@@ -17,5 +19,8 @@
     "dev": "webpack-dev-server --mode=development",
     "dev2": "babel ./exercicios-modulo1/main.js -o ./exercicios-modulo1/bundle.js -w",
     "dev3": "babel ./exercicios-modulo2/main.js -o ./exercicios-modulo2/bundle.js -w"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
   }
 }
