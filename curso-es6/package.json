@@ -21,6 +21,6 @@
     "dev3": "babel ./exercicios-modulo2/main.js -o ./exercicios-modulo2/bundle.js -w"
   },
   "dependencies": {
-    "axios": "^0.19.0"
+    "axios": "^0.21.1"
   }
 }
